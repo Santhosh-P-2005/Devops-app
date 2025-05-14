@@ -1,12 +1,12 @@
 pipeline {
   agent any
   environment {
-    DOCKER_IMAGE = "your-dockerhub-user/blue-green-app"
+    DOCKER_IMAGE = "santhosh9405/blue-green-app"
   }
   stages {
     stage('Clone') {
       steps {
-        git 'https://github.com/youruser/blue-green-app.git'
+        git 'https://github.com/Santhosh-P-2005/Devops-app'
       }
     }
     stage('Build Docker Image') {
