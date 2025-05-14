@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: your-dockerhub-user/Devops-app:green
+        image: santhosh9405/Devops-app:green
         ports:
         - containerPort: 3000
         env:
